@@ -1,0 +1,110 @@
+.slider-container {
+    overflow: hidden;
+    width: 100vw; /* Take up the full width of the viewport */
+    position: relative;
+  }
+  
+  .slider {
+    display: grid;
+    grid-template-columns: repeat(3, 100vw); /* Each image takes up the full viewport width */
+    transition: transform 0.5s ease;
+    width: 300%; /* Total width is 3 times the viewport width */
+  }
+  
+  .slider img {
+    width: 100%; /* Each image fills its column */
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  
+
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .slider-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .content h2{
+    font-size: 24px;
+    color:#e82b4b;
+    margin:0px;
+    padding:0px;
+  }
+  .content h3{
+    font-size: 90px;
+    color:white;
+    margin:0px;
+    padding:0px;
+  }
+
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .slider-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e82b4b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
